@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19.2rem;
+    
+}
+
+
+.hide{
+    display: none;
+}
+
+.pressed{
+    background: #02799D;
+    color: white;
+}
+
+.pressed path{
+    fill:white
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+main button{
+    background: transparent;
+}
+
+
+.timer{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12.6166rem;
+    display: flex;
+    margin-bottom: 1.7rem;
+}
+
+.controls{
+    width: 32rem;
+    display: flex;
+    gap: 4rem;
+
+}
+
+.sounds{
+    display: grid;
+    grid-template-areas: 
+    "1 2"
+    "3 4";
+    gap: 3.2rem;
+
+}
+
+.sounds button{
+    width: 13.8rem;
+    height: 15.2rem;
+    border-radius: 2.4rem;
+}
